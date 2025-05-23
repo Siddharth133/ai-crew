@@ -25,8 +25,8 @@ const LandingPage = () => {
 
   return (
     <div className="relative min-h-screen bg-[#181C2A]">
-      {/* Background effects - moved to a lower z-index */}
-      <div className="fixed inset-0 pointer-events-none z-0">
+      {/* Background effects */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] animate-grid-shift" />
         <div className="absolute inset-0 bg-gradient-to-b from-purple-500/5 via-transparent to-pink-500/5" />
       </div>
